@@ -1,0 +1,5 @@
+- insert:
+    - id: qoder-subagent
+      name: '@local/dsh-qoder-subagent'
+      config:
+        maxConcurrent: 6

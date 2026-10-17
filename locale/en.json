@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Free subagent (Qoder CN)",
+    "description": "Runs DSH subtasks on Qoder CN's free models (Qwen3.8-Flash and friends): per-call model, per-call permissions, zero prompt injection, full audit trail."
+  }
+}

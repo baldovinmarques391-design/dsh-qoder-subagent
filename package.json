@@ -1,0 +1,39 @@
+{
+  "name": "@local/dsh-qoder-subagent",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "把 Qoder CN 的免费模型当成 DSH 子代理来用（不含 WorkBuddy）",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index-v020.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index-v020.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "README.md"
+  ],
+  "meta": {
+    "title": "免费子代理（Qoder CN）",
+    "description": "用 Qoder CN 的 Qwen3.8-Flash 等免费模型跑子任务：逐次选模型、逐次传权限、零提示词注入、全程留痕。"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "subagent",
+    "qoder"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baldovinmarques391-design/dsh-qoder-subagent.git"
+  }
+}

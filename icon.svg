@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7.3 7.5 21.4 21.4" width="36" height="36" role="img" aria-label="免费子代理">
+  <!-- DSH's own subagent mark (PluginArtworkSubagent): two stacked rounded squares.
+       Geometry, opacities and gradients are copied verbatim from
+       @deepseek-ai/dsh-client-ui-primitives. -->
+  <rect x="14.9893" y="15.1877" width="12.2365" height="12.2365" rx="2" fill="url(#sa-a)" fill-opacity="0.8"/>
+  <rect x="8.87109" y="9.0697" width="12.2365" height="12.2365" rx="2" fill="url(#sa-b)" fill-opacity="0.8"/>
+  <defs>
+    <linearGradient id="sa-a" x1="21.1075" y1="15.1877" x2="21.1075" y2="27.4243" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45E7A4"/>
+      <stop offset="1" stop-color="#05909D"/>
+    </linearGradient>
+    <linearGradient id="sa-b" x1="14.9894" y1="9.0697" x2="14.9894" y2="21.3063" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69B9FF"/>
+      <stop offset="1" stop-color="#324DE2"/>
+    </linearGradient>
+  </defs>
+</svg>

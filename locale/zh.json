@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "免费子代理",
+    "description": "让 Qoder CN 的免费模型（Qwen3.8-Flash 等）当 DSH 的子代理：逐次选模型、逐次传权限、零提示词注入、全程留痕。"
+  }
+}
